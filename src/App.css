@@ -1,0 +1,159 @@
+:root{
+  --primary-one: #fff;
+  --primary-two: #f4f5f7;
+
+  --primary-deep: #42526e;
+  --primary-deep-one: #253858;
+
+  --button-border: #0052cc;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1;
+  font-size:16px;
+}
+img{
+width:100%
+}
+
+h4, p, h2{font-size:1.25rem;}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5rem;
+  background-color:var(--primary-two);
+}
+.navleft{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.icons{
+  width: 26px;
+  height: 26px;
+  color: var(--primary-deep);
+}
+.icon{
+  padding-left: 15px;
+}
+.ico{
+  padding-right: 20px;
+}
+.Atlas_logo{
+  width: 161px;
+  height: 20px;
+  margin:0 20px ;
+}
+/* get it free button ie freebutton.js*/
+.freebutton{
+  color:var(--button-border);
+  padding:0.35rem 0.50rem;
+  border-radius: 0.2rem;
+ border: 1px solid var(--button-border);
+  background-color:var(--button-border);
+  color:#fff;
+}
+/* secondnavbar */
+.secondnavbar{
+    position: sticky;
+    top: 0;
+    right: 0;
+    height:6.2rem;
+    box-shadow: 2px 5px 5px rgb(0,0,0,0.4);
+    background-color: var(--primary-one);
+}
+.secondnavb{
+  padding:16px 15px;
+
+}
+.jiralo{
+  margin-bottom: 1rem;
+}
+.jiralogo{
+  width: 215px;
+  height: 28px;
+}
+.arrowdown{
+  margin-left:1rem;
+  color:var(--button-border);
+}
+/* firstbox */
+
+.firstbox, .secondbox, .thirdbox, .fourthbox, .fifthbox, .seventhbox{
+  display: flex;
+  flex-direction: column;
+  color: var(--primary-deep);
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 1.25;
+}
+.heading{
+  padding-top:2rem;
+  margin-bottom: 1.5rem;
+}
+.header{
+  background-color:#fff;
+  margin-top: 1rem;
+}
+/* secondbox */
+.secondbox, .seventhbox{
+  text-align: center;
+}
+/* thirdbox */
+.thirdbox, .fourthbox{
+  margin-top: 5rem;
+}
+.tourboard{
+  width: 280px;
+  height: 160px;
+}
+/* seventhbox */
+.seventhlink{
+  text-decoration: none;
+  color: var(--button-border);
+}
+.sixthbox{
+  height: 5rem;
+  background-color:green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:760px) {
+  .firstbox, .secondbox, .thirdbox{
+    flex-direction: row;
+
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    background-color: #0052cc;
+  }
+  
+}
